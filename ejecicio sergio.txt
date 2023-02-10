@@ -1,0 +1,8 @@
+Agua    	10	x7	70
+Cemento 	20	x7	140
+Grava20 	50	x7	350
+Arena R 	60	x7	420
+Aditivo1 	1	x7  	70
+
+
+Iniciar proceso

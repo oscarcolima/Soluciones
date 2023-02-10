@@ -1,0 +1,27 @@
+VisualStudio 2015 Non-Admin
+In your solution dir, in the file .vs\config\applicationHost.config change the line
+
+<binding protocol="http" bindingInformation="*:44302:localhost" />
+
+to
+
+<binding protocol="http" bindingInformation=":44302:" />
+
+(where 44302 is your port)
+
+
+
+From an admin command prompt:
+
+i. Enable non-admin to bind to port
+
+netsh http add urlacl url=http://*:44302/ user=Everyone
+
+ii. Allow through firewall
+
+netsh advfirewall firewall add rule name="IISExpress visualstudio app" protocol=tcp localport=44302 dir=in action=allow
+
+
+
+Start debugging from VisualStudio
+shareimprove this answer

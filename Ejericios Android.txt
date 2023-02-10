@@ -1,0 +1,20 @@
+Tema 2 Listas simples!
+Tema 3
+Tema 4 Envio de valores entre activities
+Tema 5
+Tema 6 Alerts (MsgBox) personalizados con funciones y respuetas
+
+Tarea Oblicatoria 3
+	Base de datos
+	Listas
+
+Tarea Oblicatoria 2 
+	Listas
+	Envio entre Activities
+	Seleccionar
+	Buscar en internet
+	Estilos aplicados
+
+Tarea Obligatoria 1
+	Comunicacion de 2 activities
+	Alert (MsgBox) Generico

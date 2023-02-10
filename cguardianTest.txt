@@ -1,0 +1,55 @@
+>>10 		-echo / Inicio de config.
+<<10 		-
+
+<<11 		-Version del Firmware
+>>XX		-2 bytes 1 enteros 2 decimales
+
+>>13		-Fin de configuracion
+<<13
+
+>>20		-MAC
+<<20	XXXXXX	-20+6bits
+
+>>30XXXXXX	-Escribe Mac
+<<30
+
+>>40		-Cant Botones
+>>40X		-40+1byte rep cant
+
+>>50A0		-Añadir Boton
+<<50A0
+
+>>50A1		-Añadir Repetidor
+<<50A1
+
+>>60		-Borrar RF
+<<60
+
+>>70		-Habilitar test de Covertura
+<<70
+
+>>80		-Dehabilitar test de Covertura
+<<80
+
+=================================
+
+
+<<E1		-Indicador de solicitud la mac
+
+<<E2		-Keep a live de la nube
+
+<<E3		-Respuesta del Alerta recibida por cloud
+
+<<AAAX		-Alerta emitida 1-2 Cab 03-N Ina
+
+<<BAAXX		-3-N Numero de paquete
+	
+<<BBAXX		//Bateria baja
+
+<<BCAXX		//Bateria critica
+
+<<FCAX		//Fuera de cobertura
+
+<<DCAX		//Dentro de cobertura
+
+==================================

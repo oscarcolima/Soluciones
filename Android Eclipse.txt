@@ -1,0 +1,51 @@
+//int to string android
+int tmpInt = 10;
+String tmpStr10 = String.valueOf(tmpInt);
+//string to int android
+tmpInt = Integer.parseInt(tmpStr10);
+
+
+ String message = 
+        		"! 0 200 200 800 1\r\n"
+               + "CENTER\r\n"
+               + "T 5 2 0 50 Gobierno del Estado de Colima\r\n"
+               + "T 5 3 0 80 Secretaría de Finanzas\r\n"
+               + "T 5 2 0 150 ===============================\r\n"
+               + "T 5 2 0 200 Recibo de pago por Infracciones\r\n"
+               + "T 5 2 0 250 ===============================\r\n"
+               + "T 5 2 0 300 Monto:$401\r\n"
+               + "T 5 2 0 350 Placas:FST11548\r\n"
+               + "T 5 2 0 400 Vehiculo:NISSAN TIIDA ROJO \r\n"
+               + "T 5 2 0 450 ===============================\r\n"
+               + "T 5 2 0 500 FECHA: \r\n"
+               + "T 5 2 0 550 ===============================\r\n"
+               + "T 5 2 0 600 -------------------------------\r\n"
+               + "T 5 2 0 650 ------¡Gracias por su pago!----\r\n"
+               + "T 5 2 0 700 -------------------------------\r\n"
+               + "FORM\r\n"
+               + "PRINT\r\n";
+        return message;
+
+
+Toast.makeText( getApplicationContext(), "Gps Activado", Toast.LENGTH_SHORT ).show();
+
+
+//Mensaje de si o no
+	AlertDialog.Builder builder = new AlertDialog.Builder(MyContext);
+	builder.setTitle("GUARDAR cliente NUEVO");
+	builder.setMessage("¿Confirma esta accion?");
+	builder.setPositiveButton("SI", new DialogInterface.OnClickListener() {
+	public void onClick(DialogInterface dialog, int which) {
+		}
+	});
+	builder.setNegativeButton("NO", new DialogInterface.OnClickListener() {
+	    @Override
+		    public void onClick(DialogInterface dialog, int which) {
+		        // I do not need any action here you might
+			        dialog.dismiss();
+	    }
+	});
+		AlertDialog alert = builder.create();
+	alert.show();
+	
+

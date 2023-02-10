@@ -1,0 +1,38 @@
+Cambios en las betas de Xcode 8
+Sección 1, clase 6
+Cambios en Swift 3 beta 2
+
+Por si alguno de los vídeos no cuadra con tu versión de Xcode, que sepas que hay un par de cambios que debes tener en cuenta:
+
+.whitespacesAndNewlines() es ahora .whitespacesAndNewlines
+componentsSeparated(By:) es ahora components(separatedBy:)
+CGFloat(M_PI) es ahora CGFloat.pi.
+FileManager.default() es ahora FileManager.default
+.longStyle y .shortStyle en DateFormatter.Style es ahora .long y .short
+El método conversation.insert()  ya no tiene el parámetro localizedChangeDescription 
+Calendar.current() es ahora Calendar.current
+NotificationCenter.default() es ahora NotificationCenter.default
+Las llamadas para guardar y modificar notificaciones son ahora Notification.Name("save").
+En el método updateNotifications(), la llamada a requestAuthorization() ahora necesita un parámetro  "options"
+
+
+Cambios en Swift 3 beta 4
+
+En Xcode8 Beta 4, prefersStatusBarHidden deja de ser una “función” y pasa a ser una “variable”: 
+override var prefersStatusBarHidden: Bool {  return true  }
+Antes para declarar varias variables hacíamos lo siguiente: if let x = y , z = n, v = b { ... } Ahora en la beta 4 salen advertencias, no errores, para que utilices la sintaxis: if let x = y, let z = n, let v = b { ... }
+
+
+Cambios en Swift 3 beta 5
+
+En muchos lados el "completion: nil" ya no es necesario porque los bloques opcionales pueden eliminarse. Más fácil todavía
+Los NSAttributedString en Swift 2.2 fueron AttributedString en Swift 3.0, pero Apple ha dado un paso atrás y vuelven a ser NSAttributedString. Como pille al cap..... que lo ha programado, me lo cargo.
+La llamada a FileManager.default.urlsForDirectory(.documentDirectory, inDomains: .userDomainMask)" dentro del método getDocumentsDirectory() ha cambiado ahora a FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)", lo cual era lógico por temas de sintaxis.
+Los valores atribuidos de UIColor son ahora properties en lugar de métodos, así que habrá que usar so use UIColor.black en lugar de UIColor.black() (y todo mucho mejor que UIColor.blackColor() de Swift 2.2!)
+"appendingPathComponent()" y "appendingPathExtension()" ya no lanzan errores, así que no hay que marear con el try, el catch y las excepciones (gracias a los alumnos por el apunte!!)
+La propiedad "path" de una URLs ya no es opcional. Mejor, simplificamos código.
+
+
+
+
+Gracias a todos por vuestra paciencia!!!

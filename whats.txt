@@ -1,0 +1,11 @@
+ 	    //Numero: 521-312-123-08-80, Codigo Verificacion:796165, Password: 77Vn0iN9Uk+4GA7jD1YkUdPF2yU=
+            //Numero: 521-312-132-21-25, Codigo verificacion:978755, Password: 1R0/ZyOPujjvGHpXbKyo5edKcks=
+            //Numero: 521-312-105-54-85, Password:7SFbrkGMIgzXHHmYXl3OnShGZbQ=
+
+
+ //NUMEROS Y PASSWORD PARA WHATSAPP
+            //Numero: 521-312-123-08-80, Codigo Verificacion:796165, Password: 77Vn0iN9Uk+4GA7jD1YkUdPF2yU=
+            //Numero: 521-312-132-21-25, Codigo verificacion:978755, Password: 1R0/ZyOPujjvGHpXbKyo5edKcks=
+            //Numero: 5213121155604, Codigo verificacion:897465, Password: 7R9nYJiKDLIQg6ra1Yn299Ek8e8=  //alcatel
+
+  wa = new WhatsApp("5213121068880", "+K/qcBxCajF536Hng8wRIaLsC8k=", "Oscar Gonzalez", false, false);

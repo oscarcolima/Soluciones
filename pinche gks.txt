@@ -1,0 +1,11 @@
+AA 
+00
+1-28  numero de alarma
+
+CA Config
+
+
+
+BA Borrar alarmas
+
+

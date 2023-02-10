@@ -1,0 +1,11 @@
+http://ibexpert.net/ibe/index.php?n=Doc.LocalizeIBExpert
+
+Other options offered in the Localize IBExpert toolbar include:
+
+Save changes: [Ctrl + S] saves all changes in C:\Documents and Settings\<user>\Application Data\HK-Software\IBExpert\IBExpert.lng (Windows XP) or in the C:\Users\%user%\AppData\Roaming\HK-Software\IBExpert directory (Windows 7 ).
+Find and Find next: [Ctrl + F] and [F3] respectively: search options for finding message texts.
+Export strings: enables the message list to be exported to a text file.
+Import strings: allows a message list to be loaded from a text file.
+When you change interface language in Options / Environment Options, IBExpert replaces IBExpert.lng with another one and all your changes will be lost. Alternative language files are stored in the IBExpert\Languages\ directory. You must have changed the language from English (default) to another language at least once, then the ibexpert.lng file is copied to this directory when you switch languages.
+
+If you have succeeded in translating this file into a language that IBExpert does not yet offer, please contact documentation@ibexpert.com. We would love to hear from you!

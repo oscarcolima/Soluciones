@@ -1,0 +1,3 @@
+plugman install --platform android --project C:\CordovaProjects\GenericCJQR\platforms\android --plugin C:\CordovaProjects\BarcodeScanner-master
+
+Es necesario revisar que este configurado la caracteristica FEATURE en los XMLs

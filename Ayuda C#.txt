@@ -1,0 +1,141 @@
+select @@servername + '\' + @@servicename
+
+//Saber el tipo de un control
+ctrl1.GetType().Name
+
+
+//Random con formato
+Random random = new Random();
+int randomNumber = random.Next(0, 999);
+
+//Busquedas en DataTables
+DataRow[] foundRows = Program.dtFormulas.Select("NOMBRE='" + dGVPrincipal.SelectedRows[0].Cells["FORMULA"].Value.ToString() + "'");
+if (foundRows.Count() > 0)
+
+//Busquedas en listas
+if(pruebasCalidad.Exists(x => x.identificador == nueva.identificador)){
+if (nueva.noDepaqueteActual != 0){prueba exisPrueba = pruebasCalidad.Find(x => x.identificador == nueva.identificador);}
+
+//Listas
+List<Part> parts = new List<Part>();
+parts.Add(new Part() {PartName="crank arm", PartId=1234});
+
+//String OK to Bool
+.ToString() == "1" ? true : false;
+
+//Hilos
+Thread hiloLoader; //Variable Global
+hiloLoader = new Thread(ventanaLoader);
+hiloLoader.Start(); 
+
+//Hilo con argumentos
+new Thread(() => EnviarEmail("", "")).Start();
+
+
+//Formato Moneda
+.ToString("$.#0");
+//Formato Fecha
+DateTime.Now.ToString("dd/MM/yyyy hh:mm tt");
+
+//Declaracion de eventos Sencillos sin Argumentos
+public event EventHandler OnNombreEvento;
+if (OnNombreEvento!=null)
+OnUsuarios(sender, e); 
+
+//Declaracion de eventos con argumentos
+public delegate void onEvento(object ob);
+public event onEvento OnImprimir;
+if (OnNombreEvento!=null)
+OnUsuarios(sender, e); 
+
+
+//Declaracion express de propiedades
+public string Nombre{ get; set; } 
+
+//Declaracion regular de propiedades
+ public  System.Drawing.Color backColor
+            {
+                get { return this.BackColor; }
+                set{ this.BackColor = backColor;}
+            }
+
+//Acceso a objetos desde una instancia diferente a quien lo creo
+delegate void Funcion();
+this.Invoke(new Funcion(delegate() 
+{
+}));
+
+//Acceso a objetos desde una instancia diferente a quien lo creo WPF
+System.Windows.Application.Current.Dispatcher.Invoke(DispatcherPriority.Normal, (ThreadStart)delegate
+{
+});
+
+Argumentos opcionales
+public CCTalkComponent(int spComPort, int spBaudRate = 9600, int spDataBits = 8, Parity spParity=Parity.None, StopBits spStopBits = StopBits.One)
+
+//Escructura basica programas
+#region Variables
+#endregion
+
+#region Metodos Privados
+#endregion
+
+#region Metodos Publicos
+#endregion
+
+#region Enumeradores
+#endregion
+
+#region Propiedades
+#endregion
+//KEYPRESS
+ private void txtDisplay_KeyPress(object sender, KeyPressEventArgs e)
+        {
+
+            if (e.KeyChar == (char)13)
+            {
+                //   btnAceptar_Click(null, null);
+            }
+            else if (e.KeyChar == (char)42)
+            {
+                //   btnAceptar_Click(null, null);
+                operaciones(new Button {Text="x" }, null);
+                e.Handled = true;
+            }
+            else if (e.KeyChar == (char)43)
+            {
+                //   btnAceptar_Click(null, null);
+                operaciones(new Button { Text = "+" }, null);
+                e.Handled = true;
+            }
+            else if (e.KeyChar == (char)45)
+            {
+                //   btnAceptar_Click(null, null);
+                operaciones(new Button { Text = "-" }, null);
+                e.Handled = true;
+            }
+            else if (e.KeyChar == (char)27)
+            {
+                // this.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            }
+            else if (char.IsDigit(e.KeyChar) || char.IsControl(e.KeyChar))
+            {
+                button_Click(new Button { Text=e.KeyChar.ToString() }, null);
+                e.Handled = true;
+            }                
+            else if (e.KeyChar == '.' && !((TextBox)sender).Text.Contains('.'))
+                e.Handled = false;
+            else
+                e.Handled = true;
+           
+        }
+
+
+//FAST REPOR 3
+autohight
+if you want the memo to stretch vertically
+turn autosize off it stretches width
+turn wordwrap on if needed
+turn stretched on for both memo and band
+Also a stretched memo cannot have another memo directly below it in the same band.
+regards wink.gif

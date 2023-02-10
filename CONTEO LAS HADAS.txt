@@ -1,0 +1,8 @@
+select productos.id_string, productos.observacion, productos.cant_act, productos.precio_pub from productos where productos.cant_act>=1
+
+
+select sum(productos.cant_act * productos.precio_pub) as mul from productos where productos.cant_act >=1
+
+select sum(productos.cant_act), count(productos.cant_act) from productos where productos.cant_act >=1
+
+select productos.id_string, productos.observacion, productos.cant_act, productos.precio_pub from productos where productos.cant_act>=1
